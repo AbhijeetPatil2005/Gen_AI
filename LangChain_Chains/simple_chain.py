@@ -18,3 +18,4 @@ chain = prompt | model | parser
 result= chain.invoke({'topic': 'space'})
 
 print(result)
+chain.get_graph().print_ascii()
