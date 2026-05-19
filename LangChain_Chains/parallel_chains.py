@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain.schema.runnable import RunnableParallel
+
 load_dotenv()
 
 model1 = ChatGroq(model ="llama-3.3-70b-versatile")
